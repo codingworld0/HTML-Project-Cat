@@ -1,0 +1,28 @@
+:root {
+	--color-darkBlue: #26547c;
+	--color-red: #ed6a5a;
+	--color-yellow: #ffd166;
+	--color-drakGreen: #006d77;
+	--color-light: #edf6f9;
+}
+
+html { height: 100vh; }
+
+body {
+	background-color: var(--color-light);
+	color: var(--color-darkBlue);
+	font: normal normal 150%/1.5rem 'Winky Sans', 'Fira Sans', sans-serif, serif, system-ui;
+}
+
+.container {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 1.25rem;
+}
+
+.center { margin: 0 auto; }
+
+h1, h2, h3, h4 { font-weight: 500; }
+
+.tc { text-align: center; }
